@@ -32,7 +32,7 @@ bindkey -v
 # source "$HOME/.bashrc"
 
 # Run zprezto init file
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+# source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
