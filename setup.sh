@@ -1,8 +1,9 @@
 #!/bin/bash
 # Here we ensure all of the necessary packages are up-to-date and downloaded
 sudo apt-get update
-sudo apt-get install -y curl libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
-sudo apt-get install -y neovim
+sudo apt-get install -y curl libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 
+sudo apt-get install -y libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+sudo apt-get install -y neovim htop
 sudo apt-get install -y texlive-xetex texlive-fonts-recommended texlive-plain-generic
 # Now we want to install the desired fonts (MesloLGS NF, Flux)
 mkdir ~/.local/share/fonts
