@@ -1,0 +1,1 @@
+echo $(python -c 'print(12.398e3/'$1', "Angstrom or eV")')
