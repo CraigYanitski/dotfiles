@@ -37,6 +37,11 @@ chsh -s /bin/zsh
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin launch=n
 # Execute rc files
 exec zsh
+# Move custom shell scripts to the correct location
+cp angev ~/.local/bin/
+cp umghz ~/.local/bin/
+cp towayland ~/.local/bin/
+cp tox11 ~/.local/bin/
 # Download atom editor
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" /etc/apt/sources.list.d/atom.list'
