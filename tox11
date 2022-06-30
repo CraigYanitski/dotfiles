@@ -1,0 +1,1 @@
+sudo sed -i "s|#WaylandEnable|WaylandEnable|g" /etc/gdm3/custom.conf
