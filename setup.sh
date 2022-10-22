@@ -39,6 +39,7 @@ curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin launch=n
 exec zsh
 # Move custom shell scripts to the correct location
 cp angev ~/.local/bin/
+cp conv-rgb ~/.local/bin/
 cp umghz ~/.local/bin/
 cp towayland ~/.local/bin/
 cp tox11 ~/.local/bin/

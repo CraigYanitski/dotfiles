@@ -1,0 +1,3 @@
+#/bin/zsh
+
+echo $1 | sed 's\#\\' | grep -o .. | sed 's/[a-z]/\U&/g' | xargs -I {} echo "echo 'obase=10; ibase=16; {}' | bc" | zsh
